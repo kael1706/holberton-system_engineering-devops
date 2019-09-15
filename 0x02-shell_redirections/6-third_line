@@ -1,3 +1,2 @@
 #!/bin/bash
-# you have 3 lines and then you get the last one
 head -n 3 iact | tail -n 1
