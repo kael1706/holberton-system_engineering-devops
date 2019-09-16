@@ -1,1 +1,2 @@
 #!/bin/bash
+(tr -t "A" "Z") | (tr --truncate-set1 "c" "e")
