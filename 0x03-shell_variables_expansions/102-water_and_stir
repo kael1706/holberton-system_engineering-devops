@@ -5,5 +5,4 @@ STIR=$(echo $STIR | tr stir. 01234);
 WATER=$((5#$WATER));
 STIR=$((5#$STIR));
 ANSWER=$(($WATER+$STIR));
-ANSWERB8=$(echo printf '%o\n' $ANSWER);
-$ANSWERB8 | tr 01234567 $PASSWORD
+$(echo printf '%o\n' $ANSWER)| tr 01234567 $PASSWORD
