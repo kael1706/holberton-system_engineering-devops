@@ -1,11 +1,9 @@
 #!/bin/bash
 PASSWORD="behlnort";
-WATERB5=$(echo $WATER | tr water 01234);
-STIRB5=$(echo $STIR | tr stir. 01234);
-WATERB10=$((5#$WATERB5));
-STIRB10=$((5#$STIRB5));
-ANSWER=$(($WATERB10+$STIRB10));
-WATER=$WATERB5;
-STIR=$STIRB5;:
+WATER=$(echo $WATER | tr water 01234);
+STIR=$(echo $STIR | tr stir. 01234);
+WATER=$((5#$WATER));
+STIR=$((5#$STIR));
+ANSWER=$(($WATER+$STIR));
 ANSWERB8=$(echo printf '%o\n' $ANSWER);
 $ANSWERB8 | tr 01234567 $PASSWORD
