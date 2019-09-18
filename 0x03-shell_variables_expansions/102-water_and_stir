@@ -1,4 +1,6 @@
 #!/bin/bash
+export WATER="ewwatratewa";
+export STIR="ti.itirtrtr";
 PASSWORD="behlnort";
 WATER=$(echo $WATER | tr water 01234);
 STIR=$(echo $STIR | tr stir. 01234);
