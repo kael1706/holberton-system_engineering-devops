@@ -1,6 +1,6 @@
 # 0x04. Loops, conditions and parsing
 
-## Resources
+## Resources:books:
 Read or watch:
 * [Loops sample](https://intranet.hbtn.io/rltoken/fRCmr2B_Ne-rQdFZdfUDcA)
 * [Variable assignment and arithmetic](https://intranet.hbtn.io/rltoken/o8mucWW2XddN4MHiHSArkA)
@@ -9,7 +9,7 @@ Read or watch:
 * [Make your scripts portable](https://intranet.hbtn.io/rltoken/Dyrnap2UC-LrzrmCOJRx8A)
 
 ---
-## Description
+## Learning Objectives:bulb:
 What you should learn from this project:
 
 * How to create SSH keys
