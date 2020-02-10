@@ -1,1 +1,8 @@
 #!/usr/bin/env bash
+# print msg when detect sigterm
+trap "echo I am invincible!!!" SIGTERM
+while ((1))
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
