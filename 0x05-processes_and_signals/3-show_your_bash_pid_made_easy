@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# select and  show the PID and the name of the process list
+pgrep -l bash
