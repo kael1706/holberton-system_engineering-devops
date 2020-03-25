@@ -1,1 +1,6 @@
-#!/usr/bin/env bash
+Host *
+GSSAPIAuthentication yes
+GSSAPIDelegateCredentials no
+HostName 34.228.37.117
+IdentityFile ~/.ssh/holberton
+PasswordAuthentication no
