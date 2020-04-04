@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # answer when have this error:
 # curl: (7) Failed to connect to 0 port 80: Connection refused
-# this script this script makes nginx listen for port 80
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 service nginx restart
