@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-data to csv 
+data to csv
 """
 import requests
 import sys
@@ -20,6 +20,7 @@ def get_tasks_users(user_id):
                          verify=False).json()
     r = {'user': employe[0], 'tasks': tasks}
     return r
+
 
 def gcsv(d):
     """data to csv"""

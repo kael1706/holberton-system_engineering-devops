@@ -21,6 +21,7 @@ def get_tasks_users(user_id):
     r = {'user': employe[0], 'tasks': tasks}
     return r
 
+
 def g_json(d):
     """data to json"""
     user_id = d.get('user').get('id')

@@ -10,7 +10,7 @@ def get_tasks_users():
     """Gets tasks for all users"""
     url = 'https://jsonplaceholder.typicode.com/'
     users = requests.get(url + 'users',
-                           verify=False).json()
+                         verify=False).json()
     tasks = requests.get(url + 'todos',
                          verify=False).json()
     r = {}
