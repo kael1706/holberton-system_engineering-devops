@@ -2,9 +2,9 @@
 """
 Get tasks for user
 """
+import json
 import requests
 import sys
-import json
 
 
 def get_tasks_users(user_id):

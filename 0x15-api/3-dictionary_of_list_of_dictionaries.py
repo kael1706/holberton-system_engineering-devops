@@ -2,8 +2,8 @@
 """
 Get tasks for all users
 """
-import requests
 import json
+import requests
 
 
 def get_tasks_users():
