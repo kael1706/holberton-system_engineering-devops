@@ -3,7 +3,7 @@
 data to csv
 """
 import csv
-import request
+import requests
 import sys
 
 
